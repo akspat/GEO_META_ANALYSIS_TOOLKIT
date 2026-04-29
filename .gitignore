@@ -1,1 +1,5 @@
+# f week1.ipynb has already been tracked by Git (i.e., it was previously committed), 
+# adding it to .gitignore will not remove it from the repository.
+# git rm --cached week1.ipynb   
+
 week1.ipynb
