@@ -12,7 +12,7 @@ This document provides an exhaustive, file-by-file technical manual of the GEO M
   - **Sleek Glassmorphism:** Injects custom CSS utilizing dark-mode color palettes (`#0b0f19`), translucent glowing borders, and modern typography imported from Google Fonts (*Outfit*).
   - **Textured Background:** Applies a subtle radial mesh gradient (`rgba(167, 139, 250, 0.15)`) coupled with a geometric dark SVG pattern across the `.stApp` container.
   - **Distraction-Free Layout:** Features a massive glowing title (**🧬 GEO Meta-Analysis Toolkit**) and a full-width search input bar spanning 100% of the viewport container.
-* **Unified 3-Phase Smart Hybrid Execution Sequence:**
+* **Unified 3-Phase Hybrid Pipeline Execution Sequence:**
   When a user enters a biomedical query and clicks **🚀 Run Meta-Analysis**, `app.py` executes an intelligent, zero-failure 3-phase sequence:
   1. **⚡ Phase 1 (Deterministic Foundation):**
      - Executes linear, non-agentic calls to `search_geo(clean_query, max_results=max_results)` and `analyze_metadata(datasets)`.
