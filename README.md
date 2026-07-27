@@ -159,5 +159,9 @@ geo_meta_analysis_toolkit/
   signup at [ncbi.nlm.nih.gov/account](https://www.ncbi.nlm.nih.gov/account/)).
   Fetching 50 datasets will take ~17s without a key, ~5s with one.
 
-- If **`gemma4:27b` is not supported** because it has 27B and needs ~20 GB VRAM;
-  if a GPU has 8 GB VRAM. Use `medgemma:4b` (default) or `gemma2:9b` (upgrade).
+- If **`gemma4:27b` is not supported** because it has 27B parameters which needs ~20 GB VRAM;
+  but if a GPU has 8 GB VRAM. Use `medgemma:4b` (default) or `gemma2:9b` (upgrade).
+
+## Declaration of Generative AI and AI-Assisted Technologies in the Project Preparation Process
+
+Gemini 3.6 Flash and Claude Opus 4.6 were used for code review.
