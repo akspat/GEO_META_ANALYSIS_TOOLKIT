@@ -46,7 +46,7 @@ CRISPR AND "immune cells" AND mouse
 Streamlit UI (Sleek Dark Dashboard)
         │
         ▼
-Unified Smart Hybrid Engine (Phase 1 Direct → Phase 2 LangChain → Phase 3 Fallback)
+Unified Hybrid Pipeline (Phase 1 Direct → Phase 2 LangChain → Phase 3 Fallback)
         │
         ▼
   LLM (Ollama medgemma:4b, Local GPU)
