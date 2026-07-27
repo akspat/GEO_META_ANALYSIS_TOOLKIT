@@ -1,4 +1,4 @@
-# 🧬 GEO Meta-Analysis Toolkit
+# 🧬 Local GEO Meta-Analysis Toolkit
 
 A multi-tool agent that searches NCBI GEO, aggregates metadata across matching datasets,
 and generates AI-powered narrative summaries of the research landscape.
