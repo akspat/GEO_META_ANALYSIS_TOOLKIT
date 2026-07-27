@@ -1,0 +1,34 @@
+# requirements.txt
+# Install with: pip install -r requirements.txt
+#
+# NOTE: torch is installed SEPARATELY in scripts/setup_ubuntu.sh with the
+# CUDA 12.1 wheel index, so it's deliberately omitted here. If you skip
+# the setup script, run this first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+# ── Core & Data ─────────────────────────────────────────────────────────────
+pydantic>=2.6,<3.0
+pydantic-settings>=2.2,<3.0
+requests>=2.31,<3.0
+python-dotenv>=1.0,<2.0
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+python-pptx>=0.6.21
+
+# ── UI ──────────────────────────────────────────────────────────────────────
+streamlit>=1.35,<2.0
+
+# ── RAG / Embeddings ────────────────────────────────────────────────────────
+sentence-transformers>=2.7,<3.0
+faiss-cpu>=1.8,<2.0
+# NOTE: faiss-cpu is used by default for maximum compatibility. Embeddings
+# (sentence-transformers) use the GPU; FAISS similarity search itself is fast
+# enough on CPU for ~50k vectors (<50ms/query) that GPU FAISS gives no real
+# benefit here.
+
+# ── Agent frameworks ────────────────────────────────────────────────────────
+langchain>=0.2,<0.3
+langchain-community>=0.2,<0.3
+langgraph>=0.1,<0.2
+
+

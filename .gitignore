@@ -1,5 +1,31 @@
-# f week1.ipynb has already been tracked by Git (i.e., it was previously committed), 
-# adding it to .gitignore will not remove it from the repository.
-# git rm --cached week1.ipynb   
+ # ── Python ──────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
 
-week1.ipynb
+# ── Virtual environment ────────────────────────────────────────────────────────
+venv/
+.venv/
+
+# ── Secrets ────────────────────────────────────────────────────────────────────
+.env
+
+# ── Data (generated, large binaries — rebuild with build_index.py) ─────────────
+data/
+
+# ── OS / Editor ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# ── Jupyter notebooks (legacy, not part of this project) ───────────────────────
+*.ipynb
+.ipynb_checkpoints/
