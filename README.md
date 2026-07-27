@@ -61,7 +61,7 @@ NCBI GEO   PubMed      Meta-Analysis
 
 | Engine | Description |
 |------|-------------|
-| **Unified Smart Hybrid Engine** | Combines deterministic linear execution with autonomous AI reasoning. Phase 1 immediately queries NCBI GEO and aggregates distributions for instant chart rendering (~2s). Phase 2 prompts a specialized LangChain ReAct agent to investigate PubMed literature. Phase 3 catches any LLM timeouts and seamlessly auto-degrades to the linear summarizer. Guaranteed 100% success rate on every search! |
+| **Unified Hybrid Pipeline** | Combines deterministic linear execution with autonomous AI reasoning. Phase 1 immediately queries NCBI GEO and aggregates distributions for instant chart rendering (~2s). Phase 2 prompts a specialized LangChain ReAct agent to investigate PubMed literature. Phase 3 catches any LLM timeouts and seamlessly auto-degrades to the linear summarizer. Guaranteed 100% success rate on every search! |
 
 ### Meta-Analysis Dashboard
 
@@ -159,5 +159,5 @@ geo_meta_analysis_toolkit/
   signup at [ncbi.nlm.nih.gov/account](https://www.ncbi.nlm.nih.gov/account/)).
   Fetching 50 datasets will take ~17s without a key, ~5s with one.
 
-- **`gemma4:27b` is not supported** on this hardware. 27B needs ~20 GB VRAM;
-  the GPU has 8 GB VRAM. Use `medgemma:4b` (default) or `gemma2:9b` (upgrade).
+- If **`gemma4:27b` is not supported** because it has 27B and needs ~20 GB VRAM;
+  if a GPU has 8 GB VRAM. Use `medgemma:4b` (default) or `gemma2:9b` (upgrade).
