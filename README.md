@@ -8,7 +8,7 @@ and generates AI-powered narrative summaries of the research landscape.
 
 Enter a search query (e.g. `"lung cancer single cell RNA-seq"`) and the toolkit will:
 
-1. **Search** NCBI GEO for matching datasets (up to 50)
+1. **Search** NCBI GEO for matching datasets (up to 10000)
 2. **Fetch** metadata for each dataset (organism, samples, platform, experiment type, submission date)
 3. **Aggregate** statistics across all results (organism distribution, experiment types, submission timeline, top title terms, sample count statistics)
 4. **Generate** an LLM-powered narrative summary of the research landscape
